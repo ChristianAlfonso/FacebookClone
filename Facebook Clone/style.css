@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+}
+main header {
+  background-color: #4b64a8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  height: 13vh;
+  width: 100%;
+  min-width: 1300px;
+}
+main header .logo img {
+  width: 200px;
+}
+main header .box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 27%;
+  height: 12vh;
+  gap: 10px;
+  margin: 0px 150px;
+}
+main header .box .input-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+main header .box .input-2 {
+  padding: 19px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+main header .box .input-2 a {
+  color: beige;
+  text-decoration: none;
+}
+main header .box .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 0px 0px 0px;
+}
+main header .box .button #btn {
+  padding: 10px 12px;
+  background-color: #4b64a8;
+  color: white;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border: none;
+  border-radius: 10px;
+}
+main header .box .put {
+  padding: 8px;
+  margin: 8px 0px 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  border: none;
+}
+main .parent-login {
+  height: auto;
+  padding-bottom: 3.7%;
+  display: flex;
+  background-color: #dfe3ee;
+  min-width: 1300px;
+}
+main .parent-login .img {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 20px;
+}
+main .parent-login .img img {
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+main .parent-login .recent {
+  flex: 1.6;
+}
+main .parent-login .recent .recent-title {
+  text-align: center;
+  padding: 60px;
+  font-size: 26px;
+}
+main .parent-login .form {
+  flex: 1;
+}
+main .parent-login .form .sign-title {
+  padding: 20px;
+}
+main .parent-login .form .sign-title #create {
+  font-size: 50px;
+  margin: 0px 0px -10px 0px;
+}
+main .parent-login .form .sign-title #create-quote {
+  font-size: 25px;
+}
+main .parent-login .form .sign-up {
+  height: auto;
+  padding: 20px 40px;
+}
+main .parent-login .form .sign-up .first-layer {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+main .parent-login .form .sign-up .first-layer #firstname {
+  padding: 20px;
+  width: 100%;
+  font-weight: bold;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border: none;
+}
+main .parent-login .form .sign-up .first-layer #lastname {
+  padding: 20px;
+  width: 100%;
+  font-weight: bold;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border: none;
+}
+main .parent-login .form .sign-up .seceond-layer {
+  margin: 10px 0px;
+}
+main .parent-login .form .sign-up .seceond-layer #email {
+  padding: 20px;
+  width: 100%;
+  font-weight: bold;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border: none;
+}
+main .parent-login .form .sign-up .third-layer {
+  margin: 10px 0px;
+}
+main .parent-login .form .sign-up .third-layer #email {
+  padding: 20px;
+  width: 100%;
+  font-weight: bold;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border: none;
+}
+main .parent-login .form .sign-up .fourth-layer {
+  margin: 10px 0px;
+}
+main .parent-login .form .sign-up .fourth-layer #password {
+  padding: 20px;
+  width: 100%;
+  font-weight: bold;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border: none;
+}
+main .parent-login .form .sign-up .fifth-layer h2 {
+  margin: 0px 0px -10px 0px;
+  font-size: 30px;
+}
+main .parent-login .form .sign-up .fifth-layer .bday-layout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .parent-login .form .sign-up .fifth-layer .bday-layout .bday {
+  padding: 15px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border: none;
+}
+main .parent-login .form .sign-up .fifth-layer .bday-layout .provide-question {
+  display: inline-block;
+  font-size: 12px;
+}
+main .parent-login .form .sign-up .fifth-layer .bday-layout .provide-question a {
+  text-decoration: none;
+  font-weight: bold;
+}
+main .parent-login .form .sign-up .fifth-layer .radio {
+  padding: 10px 10px 10px 0px;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main .parent-login .form .sign-up .sixth-layer {
+  font-weight: bold;
+}
+main .parent-login .form .sign-up .sixth-layer a {
+  text-decoration: none;
+}
+main .parent-login .form #btn {
+  padding: 15px 30px;
+  margin: 15px 0px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border: none;
+}
+main .parent-login .last {
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 18px;
+}
+main .parent-login .last a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
