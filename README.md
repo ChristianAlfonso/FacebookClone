@@ -1,9 +1,6 @@
-# FacebookClone
-OLD FACEBOOK CLONE
-
-Display Resolution - 1920 x 1080
-
-Scale of 100%
-
-Output:
-![image](https://user-images.githubusercontent.com/109978340/208817888-483a0d28-db48-4166-aa0f-fb4824d1632c.png)
+<h4>Old Login Page Of Facebook <br> Tech stack used:</h4>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+    
